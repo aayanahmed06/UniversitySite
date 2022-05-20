@@ -11,11 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-  </head>
+ <!-- font awesome  -->
+ <script src="https://kit.fontawesome.com/2b76e2459c.js" crossorigin="anonymous"></script>
+</head>
   <body>
     <section class="header">
       <nav>
         <a href="index.html"><img src="/img/logo.png" alt=""></a>
+        <i class="fa-solid fa-x"></i>
         <div class="nav-links">
           <ul>
             <li><a href="">HOME</a></li>
@@ -26,6 +29,51 @@
           </ul>
         </div>
       </nav>
+     
+      <!-- end nav  -->
+      <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>Making website is now one of the easiest thing in the world. You
+          Just need to learn HTML, CSS,<br> Javascript and you are good to go.
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
     </section>
+  <!-- end header  -->
+
+  <!-- course  -->
+    <section class="course">
+      <h1>Course We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex inventore eligendi aliquid expedita sed voluptatibus consequuntur, voluptatum?
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laborum, repellendus ut nulla dolorum totam aliquid similique sit quaerat vitae!
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid animi facere laborum eos? Aliquam eveniet quia, architecto dolorem odio est!
+        </p>
+    </div>
+    </section>
+
+
+    <!-- Javascript for toogle menu  -->
+    <script>
+      var navlinks = document.getElementById('nav-links');
+      function showMenu() {
+        navLinks.style.right="0";
+      }
+      function showMenu() {
+        navLinks.style.right="-200px";
+      }
+    </script>
   </body>
 </html>
